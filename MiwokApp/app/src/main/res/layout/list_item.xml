@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/tan_background"
+    android:minHeight="88dp"
+    android:id="@+id/list_item">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height" />
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+    <TextView
+        android:id="@+id/miwok_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        tools:text="luti"
+        android:textColor="#FFFFFF"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/default_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        tools:text="one"
+        android:textColor="#FFFFFF"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_marginLeft="16dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

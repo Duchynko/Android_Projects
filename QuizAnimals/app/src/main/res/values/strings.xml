@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Animals Quizz</string>
+
+    <!--Intro text-->
+    <string name="introText">Rules are simple. \nFor every right answer we count you 1 point. \nGood luck !</string>
+
+    <!--Insert name-->
+    <string name="yourName">What is your name ?</string>
+    <string name="nameField"></string>
+
+    <!--Question1 and RadioButton 3 answers-->
+    <string name="Question1">Lion in the wild usually makes no more than</string>
+    <string name="Q1A1">20 kills a year</string>
+    <string name="Q1A2">40 kills a year</string>
+    <string name="Q1A3">60 kills a year</string>
+
+    <!--Question2 and EditText answer-->
+    <string name="Question2">What animal can catch human colds and other illnesses ?</string>
+    <string name="Q2hint">...</string>
+
+    <!--Question3 and 3 CheckBox answers-->
+    <string name="Question3">Which of these animals will drown if kept underwater for too long?</string>
+    <string name="Q3A1">Turtles</string>
+    <string name="Q3A2">Dolphins</string>
+    <string name="Q3A3">Whales</string>
+
+    <!--Question4 and RadioButton 3 answers-->
+    <string name="Question4">A taratntula spider can survive without food for more than</string>
+    <string name="Q4A1">2 weeks</string>
+    <string name="Q4A2">2 months</string>
+    <string name="Q4A3">2 years</string>
+
+    <!--Question5 and EditText answer-->
+    <string name="Question5">The only mammal that can fly is</string>
+    <string name="Q5hint">...</string>
+
+    <!--Question6 and 3 CheckBox answers-->
+    <string name="Question6">Which of these ants statements are true ?</string>
+    <string name="Q6A1">Ants never sleep</string>
+    <string name="Q6A2">Ants don\'t have lungs</string>
+    <string name="Q6A3">Ants always replace the dead queen with new one</string>
+
+    <!--Question7 and RadioButton 3 answers-->
+    <string name="Question7">How many muscles has cat in each ear ?</string>
+    <string name="Q7A1">17</string>
+    <string name="Q7A2">24</string>
+    <string name="Q7A3">32</string>
+
+    <!--Question8 and EditText answer-->
+    <string name="Question8">The fear of animals is called</string>
+    <string name="Q8hint">...</string>
+
+    <!--Question9 and 3 CheckBox answers-->
+    <string name="Question9">Which of these statements are true ?</string>
+    <string name="Q9A1">A butterfly has 12000 eyes</string>
+    <string name="Q9A2">Whale milk is 50% fat</string>
+    <string name="Q9A3">Hippo\'s sweat is pinkt</string>
+
+    <!--Result button-->
+    <string name="result_button">Show result</string>
+
+    <!--Restart button-->
+    <string name="restart_button">Restart Quiz</string>
+
+    <!--Order summary strings-->
+    <string name="congratulation">Congratulation, you have finished the quiz!</string>
+    <string name="report_your_score">, your score is: </string>
+
+    <!--Score statements-->
+    <string name="low_score">Good luck next time</string>
+    <string name="medium_score">Good, that wasn\'t bad</string>
+    <string name="high_score">Wow ! You rock !</string>
+</resources>
