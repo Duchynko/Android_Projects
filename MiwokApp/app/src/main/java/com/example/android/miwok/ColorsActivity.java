@@ -30,6 +30,7 @@ public class ColorsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.word_list);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
 
         // Create a list of words
         final ArrayList<Word> words = new ArrayList<Word>();
