@@ -43,6 +43,8 @@ public final class QueryUtils {
      * parsing a JSON response.
      */
     private static List<Earthquake> extractFeatureFromJson(String earthquakeJSON) {
+
+        Log.i(LOG_TAG, "TEST: extractFeatureFromJson executed");
         // If the JSON string is empty or null, then return early.
         if(TextUtils.isEmpty((earthquakeJSON))) return null;
 
